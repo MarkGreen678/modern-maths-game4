@@ -1,7 +1,7 @@
 msgid ""
 msgstr "Project-Id-Version: Game v4.7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: Tue Jul  9 15:55:56 2024\n"
+"POT-Creation-Date: Sat Jul 13 09:25:42 2024\n"
 "Last-Translator: \n"
 "Language-Team: none\n"
 "Language: en\n"
@@ -173,7 +173,7 @@ msgid "Uniqueness of identity"
 msgstr ""
 
 #: Game.Levels.Basics.L01_unique_identity
-msgid "We'll show that the identity is unique. That is, we'll prove:\n"
+msgid "Hello! We'll show that the identity is unique. That is, we'll prove:\n"
 "\n"
 "**Theorem** Suppose $b$ is an element of $G$ such that $b * a = a$,\n"
 "for every $a$ in $G$. Then $b = 1$.\n"
