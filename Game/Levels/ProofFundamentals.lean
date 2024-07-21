@@ -1,7 +1,7 @@
 import Game.Metadata
 import Game.Levels.ProofFundamentals.L01_Transitivity_of_Subset
 
-World "Proof Fundamentals"
+World "ProofFundamentals"
 Title "Proof Fundamentals"
 
 Introduction
