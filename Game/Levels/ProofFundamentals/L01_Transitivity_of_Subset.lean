@@ -1,11 +1,11 @@
 import GameServer.Commands
 
-World "Arithmetic"
+World "Proof Fundamentals"
 Level 1
-Title "Commutativity"
+Title "Transitivity of Subset"
 
 Introduction "
-Hi! We'll show that $a * b = b * a$.
+Hello! We'll show that ....
 
 'ring' can be used to simplify and prove equalities involving polynomial-like
 expressions. Write 'ring' to solve the goal!"
@@ -20,7 +20,7 @@ NewTactic «ring»
 
 /-- Let $a$ and $b$ be natural numbers. Then $a * b = b * a$
 --/
-Statement (a b : ℕ): a * b = b * a:= by
+theorem subset_trans {S T U : set X} (h₁ : S ⊆ T) (h₂ : T ⊆ U) : S ⊆ U :=  by
   Template
     ring
 Conclusion "
