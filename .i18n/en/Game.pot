@@ -1,7 +1,7 @@
 msgid ""
 msgstr "Project-Id-Version: Game v4.7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: Tue Jul 23 09:07:10 2024\n"
+"POT-Creation-Date: Tue Jul 23 16:14:51 2024\n"
 "Last-Translator: \n"
 "Language-Team: none\n"
 "Language: en\n"
@@ -375,6 +375,23 @@ msgstr ""
 #: Game.Levels.ProofFundamentals.L01_Transitivity_of_Subset
 msgid "Hello! We'll show that given sets 𝑆,𝑇, and 𝑈 on a type 𝑋,\n"
 "given h₁: 𝑆⊆𝑇 and h₂: 𝑇⊆𝑈, 𝑆⊆𝑈"
+msgstr ""
+
+#: Game.Levels.ProofFundamentals.L01_Transitivity_of_Subset
+msgid "`intro` nIntroduces new variables and hypotheses into the proof context"
+msgstr ""
+
+#: Game.Levels.ProofFundamentals.L01_Transitivity_of_Subset
+msgid "`apply` used to apply a hypothesis, theorem, or lemma to\n"
+"the current goal, generating new subgoals/goals"
+msgstr ""
+
+#: Game.Levels.ProofFundamentals.L01_Transitivity_of_Subset
+msgid "`exact` If h is a hypothesis or proof term that matches the target, then exact h will close the goal."
+msgstr ""
+
+#: Game.Levels.ProofFundamentals.L01_Transitivity_of_Subset
+msgid "given sets 𝑆,𝑇, and 𝑈 on a type 𝑋, given h₁: 𝑆⊆𝑇 and h₂: 𝑇⊆𝑈, 𝑆⊆𝑈-"
 msgstr ""
 
 #: Game.Levels.ProofFundamentals.L01_Transitivity_of_Subset

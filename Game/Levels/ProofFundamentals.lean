@@ -10,4 +10,5 @@ Welsome to your first Lean World! Here, we learn the fundamentals of proof,
 including how to structure proofs correctly and how proof can be thought of
 as a flow from the hypotheses to the goal(s).
 
-Click on \"Start\" below to begin."
+Click on \"Start\" below to begin.
+"
