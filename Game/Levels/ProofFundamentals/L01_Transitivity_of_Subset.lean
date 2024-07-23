@@ -9,6 +9,18 @@ Introduction "
 Hello! We'll show that given sets 𝑆,𝑇, and 𝑈 on a type 𝑋,
 given h₁: 𝑆⊆𝑇 and h₂: 𝑇⊆𝑈, 𝑆⊆𝑈 "
 
+/-- `intro`Introduces new variables and hypotheses into the proof context
+--/
+TacticDoc «intro»
+
+/-- `apply`used to apply a hypothesis, theorem, or lemma to the current goal, generating new subgoals/goals
+--/
+TacticDoc «apply»
+
+/-- `exact`If h is a hypothesis or proof term that matches the target, then exact h will close the goal.
+--/
+TacticDoc «exact»
+
 variable {X : Type}
 
 namespace hidden
