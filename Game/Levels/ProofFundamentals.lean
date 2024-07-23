@@ -1,5 +1,6 @@
 import Game.Metadata
 import Game.Levels.ProofFundamentals.L01_Transitivity_of_Subset
+import Game.Levels.ProofFundamentals.L02_Subset_Union_Right
 
 World "ProofFundamentals"
 Title "Proof Fundamentals"
