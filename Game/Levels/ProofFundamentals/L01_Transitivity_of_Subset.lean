@@ -7,7 +7,7 @@ Level 1
 Title "Transitivity of Subset"
 
 Introduction "
-Hello! Given sets 𝑆,𝑇, and 𝑈 on a type 𝑋, h₁: 𝑆⊆𝑇 and h₂: 𝑇⊆𝑈, we'll show 𝑆⊆𝑈
+Hello! Given sets S,T, and U on a type X, h₁: S ⊆ T and h₂: T ⊆ U, we'll show S ⊆ U
 
 To start, introduce x of type X and a new hypothesis,
 let's call it hx, which assumes x∈S. We do this using
@@ -19,6 +19,8 @@ Next, you need to use the `apply` tactic to rewrite the
 goal to bring it closer to your hypotheses. To do this,
 write `apply` followed by the hypothesis you wish to rewrite with.
 Think carefully about what you have to use here!
+
+Tip! To type `h₁`, write h forward slash 1 then hit space
 
 To close the goal, note that if your goal is the same as one of
 your hypotheses, writing `exact _`, replacing _ with this hypothesis
@@ -44,7 +46,7 @@ NewTactic intro apply exact
 
 variable {X : Type}
 
-/-- Given sets 𝑆,𝑇, and 𝑈 on a type 𝑋, h₁: 𝑆⊆𝑇 and h₂: 𝑇⊆𝑈, we'll show 𝑆⊆𝑈--/
+/-- Given sets S,T,and U on a type X, h₁: S ⊆ T and h₂: T ⊆ U, we'll show S ⊆ U-/
 Statement {S T U : Set X} (h₁ : S ⊆ T) (h₂ : T ⊆ U) : S ⊆ U :=  by
   intro x hx
   apply h₂
