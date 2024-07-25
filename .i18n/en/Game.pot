@@ -1,7 +1,7 @@
 msgid ""
 msgstr "Project-Id-Version: Game v4.7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: Wed Jul 24 09:36:59 2024\n"
+"POT-Creation-Date: Thu Jul 25 11:29:42 2024\n"
 "Last-Translator: \n"
 "Language-Team: none\n"
 "Language: en\n"
@@ -72,7 +72,7 @@ msgid "Subset Union Right"
 msgstr ""
 
 #: Game.Levels.ProofFundamentals.L02_Subset_Union_Right
-msgid "Hello! Given sets S and T on a type X, show T ⊆ S∪T\n"
+msgid "Hello again! Given sets S and T on a type X, show T ⊆ S∪T\n"
 "\n"
 "To start, introduce x of type X and a new hypothesis,\n"
 "let's call it ht, which assumes x∈T\n"

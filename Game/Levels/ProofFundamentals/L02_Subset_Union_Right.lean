@@ -7,7 +7,7 @@ Level 2
 Title "Subset Union Right"
 
 Introduction "
-Hello! Given sets S and T on a type X, show T ⊆ S∪T
+Hello again! Given sets S and T on a type X, show T ⊆ S∪T
 
 To start, introduce x of type X and a new hypothesis,
 let's call it ht, which assumes x∈T
